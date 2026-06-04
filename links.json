@@ -1,0 +1,37 @@
+{
+    "Англ": {
+        "Л": "",
+        "П": "https://us04web.zoom.us/j/2114671234?pwd=UnZCd1VvRmVsSDJGVTBuc3JMUDI1UT09",
+        "elective": false
+    },
+    "РІС": {
+        "Л": "",
+        "П": "",
+        "elective": true
+    },
+    "ХС": {
+        "Л": "https://us02web.zoom.us/j/4667005724?pwd=4gspSY3fby4wmx03otBxTz6Xbtw4iJ.1",
+        "П": "https://us02web.zoom.us/j/4667005724?pwd=4gspSY3fby4wmx03otBxTz6Xbtw4iJ.1",
+        "elective": true
+    },
+    "NLP": {
+        "Л": "https://us04web.zoom.us/j/71787749647?pwd=VUVoQnVXSHJZY3FpYnZ3NHlNSVBLZz09",
+        "П": "https://us05web.zoom.us/j/87520619181?pwd=gbQSGzvnhQbgSdOmftZYwW3mJlU9dy.1",
+        "elective": true
+    },
+    "ІМУС": {
+        "Л": "",
+        "П": "",
+        "elective": false
+    },
+    "БІС": {
+        "Л": "",
+        "П": "",
+        "elective": false
+    },
+    "ТР": {
+        "Л": "https://us05web.zoom.us/j/5297906578?pwd=RDRyWUlXdnZpVnQ1TktBM2JXQjIzZz09",
+        "П": "",
+        "elective": false
+    }
+}

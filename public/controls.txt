@@ -1,0 +1,19 @@
+SCREENSHOTS
+PrtSc - скриншот мейн монітора
+Ctrl+Win+PrtSc - зберегти скриншот мейн монітора
+Ctrl+PrtSc - скриншот усіх моніторів
+Win+PrtSc - зберегти скриншот усіх моніторів
+
+SPOTIFY
+LAlt+'-' - mute active window
+RAlt+'-' - mute Spotify
+RAlt + 8 - prev
+RAlt + 9 - play/pause
+RAlt + 0 - next
+
+COMMANDS
+cls
+discord reconnect
+obs reconnect
+config update
+links last

@@ -1,0 +1,25 @@
+[project]
+name = "real-astolfo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "comtypes>=1.4.16",
+    "customtkinter>=5.2.2",
+    "infi-systray>=0.1.12.1",
+    "keyboard>=0.13.5",
+    "mss>=10.2.0",
+    "obsws-python>=1.8.0",
+    "pillow>=12.2.0",
+    "psutil>=7.2.2",
+    "pycaw>=20251023",
+    "pynput>=1.8.2",
+    "pypresence>=4.6.1",
+    "python-dotenv>=1.2.2",
+    "python-telegram-bot>=22.7",
+    "pywin32>=312",
+    "screen-brightness-control>=0.27.2",
+    "speechrecognition>=3.16.1",
+    "winclip32>=0.6.0",
+]

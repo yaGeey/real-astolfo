@@ -1,0 +1,41 @@
+name: Build EXE
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true 
+
+      - name: Install PyInstaller and dependencies
+        run: |
+          uv sync
+          uv pip install pyinstaller
+
+      - name: Build EXE
+        run: |
+          uvx pyinstaller --noconfirm --onefile --windowed --icon ".\public\astlofo4.ico" --name "Астольфік" "astolfo.py"
+
+      - name: Create GitHub Release and Upload Artifact
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/Астольфік.exe 
+          name: Release ${{ github.ref_name }}
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
