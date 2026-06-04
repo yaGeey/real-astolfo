@@ -1,3 +1,5 @@
+!! You need config files for it to work right now. Put `Астольфік.exe` in the parent directory after clonning the repo.
+
 building from source
 ```
 uv sync

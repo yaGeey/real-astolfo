@@ -19,7 +19,19 @@ dependencies = [
     "python-dotenv>=1.2.2",
     "python-telegram-bot>=22.7",
     "pywin32>=312",
+    "requests>=2.34.2",
     "screen-brightness-control>=0.27.2",
     "speechrecognition>=3.16.1",
     "winclip32>=0.6.0",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.16",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.format]
+quote-style = "single"
