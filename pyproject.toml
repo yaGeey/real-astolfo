@@ -23,3 +23,14 @@ dependencies = [
     "speechrecognition>=3.16.1",
     "winclip32>=0.6.0",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.16",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.format]
+quote-style = "single"
